@@ -1,7 +1,11 @@
+![linkdin2](https://user-images.githubusercontent.com/109628645/224037423-32203dda-ed77-455f-bef6-7e049e022b87.PNG)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.![linkdin](https://user-images.githubusercontent.com/109628645/224037460-29128d43-d1b9-4a66-b1b8-7b2863bc795f.PNG)
+
+![linkdin3](https://user-images.githubusercontent.com/109628645/224037581-dec369fb-d8dd-4edc-b0da-ffe800c3a5a8.PNG)
+
+
 # Getting Started with Create React App and Redux
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
-
 ## Available Scripts
 
 In the project directory, you can run:
