@@ -1,0 +1,110 @@
+.header {
+  /* background-color:red; */
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  justify-content: space-around;
+  border-bottom: 0.1px solid lightgray;
+  padding: 10px 0px;
+  padding-top: 15px;
+  width: 100%;
+  background-color: white;
+}
+.header__left > img {
+  object-fit: contain;
+  height: 40px;
+  margin-right: 10px;
+}
+.header__left {
+  display: flex;
+}
+.header__search {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 22px;
+  color: gray;
+  background-color: #eef3f8;
+}
+.header__search > input {
+  outline: none;
+  border: none;
+  background-color: inherit;
+}
+.header__right {
+  display: flex;
+}
+.header__profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__dropdown {
+  position: absolute;
+  top: 5rem;
+  right: 10.5rem;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.header__dropdown__menu {
+  background-color: white;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2px;
+  align-items: center;
+  justify-content: center;
+  /* border:1px solid black; */
+  border-radius: 10px;
+}
+.header__dropdown__menu1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin-left: 20px;
+  /* margin-right:20px; */
+}
+.header__dropdown__menu__inner {
+  margin-left: 10px;
+}
+.header__dropdown__menu2 {
+  width: 100%;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+.header__dropdown__menu2 button {
+  width: 100%;
+  border: none;
+  background-color: white;
+  border: 1px solid blue;
+  padding: 5px 4px;
+  cursor: pointer;
+  border-radius: 20px;
+  color: blue;
+  /* margin-left:10px; */
+}
+.header__dropdown__menu3 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.header__dropdown__menu3 > p {
+  color: gray;
+  font-size: 15px;
+}
+.header__dropdown__menu3 > h4 {
+  font-size: 15px;
+}
